@@ -3867,8 +3867,9 @@ this.a=c},
 yJ:function yJ(a,b,c){this.a=a
 this.b=b
 this.c=c}},F={Az:function Az(a){this.a=a},AA:function AA(a,b){this.c=a
-this.a=b},qD:function qD(a,b){this.c=a
-this.a=b},cS:function cS(){},pq:function pq(){},
+this.a=b},qD:function qD(a,b,c){this.c=a
+this.d=b
+this.a=c},cS:function cS(){},pq:function pq(){},
 e9:function(a,b){var u=b.a,t=b.b,s=new E.c7(new Float64Array(3))
 s.cJ(u,t,0)
 u=a.iw(s).a
@@ -17012,10 +17013,10 @@ F.Az.prototype={
 S:function(a){return new S.m3(new F.AA("Tametu - Home Page",null),"Flutter Demo",X.EQ(null,C.cV),null)}}
 F.AA.prototype={
 S:function(a){var u=null,t=L.qY(this.c,u),s=[N.aG]
-return new M.ke(new E.ok(t,new Q.a5(1/0,56),u),new T.jl(C.a_,u,u,T.MB(H.e([L.qY("Tam\xe9t\xfb - get more done, faster.",K.be(a).y2.b),M.lf(u,L.qY("This Tametu timer is a simple idea of tricking oneself into working/studying for short, but focused work sessions for a reward of break the end. The breaks are sequenced in a cycle which consist of a few short breaks and one long break. This results in a focused work session and a lowered tendency of getting distracted.\nCentral to this technique is a loudly ticking countdown timer.\nTametu is ideal for students, programmers, writers and anybody who just wants to FOCUS!",K.be(a).y2.e),u,u,u,u,u,u,1024),T.Sn(H.e([new F.qD("https://user-images.githubusercontent.com/28054527/50595743-bcc7c400-0ec7-11e9-8c20-b1383a32edbf.png",u),new T.hx(4,u,u,u),new F.qD("https://user-images.githubusercontent.com/28054527/50595742-bcc7c400-0ec7-11e9-961b-076b7a0b8fba.png",u)],s),C.cf,C.hK,C.bC)],s),C.cU),u),u)}}
+return new M.ke(new E.ok(t,new Q.a5(1/0,56),u),new T.jl(C.a_,u,u,T.MB(H.e([L.qY("Tam\xe9t\xfb - get more done, faster.",K.be(a).y2.b),M.lf(u,L.qY("This Tametu timer is a simple idea of tricking oneself into working/studying for short, but focused work sessions for a reward of break the end. The breaks are sequenced in a cycle which consist of a few short breaks and one long break. This results in a focused work session and a lowered tendency of getting distracted.\nCentral to this technique is a loudly ticking countdown timer.\nTametu is ideal for students, programmers, writers and anybody who just wants to FOCUS!",K.be(a).y2.e),u,u,u,u,u,u,1024),T.Sn(H.e([new F.qD("https://user-images.githubusercontent.com/28054527/50595743-bcc7c400-0ec7-11e9-8c20-b1383a32edbf.png","1",u),new T.hx(4,u,u,u),new F.qD("https://user-images.githubusercontent.com/28054527/50595742-bcc7c400-0ec7-11e9-961b-076b7a0b8fba.png","2",u)],s),C.cf,C.hK,C.bC)],s),C.cU),u),u)}}
 F.qD.prototype={
 S:function(a){var u=null,t=Q.bj(10,10,10,10)
-return M.lf(u,T.MB(H.e([M.lf(u,new U.lN(new M.hm(this.c,1),u),u,u,u,u,u,u,u),L.qY("Screen 2",u)],[N.aG]),C.cU),t,u,u,550,u,u,300)}}
+return M.lf(u,T.MB(H.e([M.lf(u,new U.lN(new M.hm(this.c,1),u),u,u,u,u,u,u,u),L.qY("Screen "+this.d,u)],[N.aG]),C.cU),t,u,u,550,u,u,300)}}
 X.aC.prototype={
 i:function(a){return this.b}}
 X.D.prototype={
